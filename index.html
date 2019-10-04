@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apresentação</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top ">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-white.png" alt="Grupo Dimed">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CSS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="top-banner text-center text-white w-100">
+        <h1>Overview HTML e CSS (Bootstrap)</h1>
+        <h4>Conceitos básicos para boas práticas de estruturação e estilo</h4>
+    </div>
+    <div class="content">
+
+        <!-- Identação de código -->
+        <div class="section bg-light mt-2 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Identação de código</h3>
+                        <p>A estrutura HTML é a base para o desenvolvimento de qualquer aplicação web. A semantica do
+                            HTML deve ser simples e concisa,
+                            tendo como objetivo estruturar a base da aplicação com o mínimo de elementos e o máximo de
+                            desempenho. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-success">Bom exemplo <i class="fa fa-thumbs-up"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Estrutura simples e limpa</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-danger">Mau exemplo <i class="fa fa-thumbs-down"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Estrutura complexa e poluída</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hierarquia dos elementos -->
+        <div class="section bg-light mt-2 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Hierarquia dos Elementos</h3>
+                        <p>Por se tratar da estruturação básica da aplicação, o HTML precisa dar uma visão simples e
+                            objetiva
+                            de como os elementos estão hierarquizados.</p>
+                        <p>A hierarquia é fundamental no HTML, uma vez que precisamos ter bem definidos quais são os
+                            "irmãos", "filhos" e "pais"</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-success">Hierarquia Simples <i class="fa fa-thumbs-up"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Fácil leitura e manutenção</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-danger">Hierarquia Encadeada <i class="fa fa-thumbs-down"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Leitura difícil e codependência de código</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Tags -->
+        <div class="section bg-light mt-2 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            < Tags />
+                        </h3>
+                        <p>Tags são os <code>&lt;html&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;div&gt;</code>
+                            enquanto os elementos são a parte semântica que as tags criam.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-primary">Exemplo de tags <i class="fa fa-code"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-primary">Exemplo de elementos <i class="fa fa-code"></i></h5>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption"></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Atributos -->
+        <div class="section mt-2 bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            Atributos
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Alteram características do elemento</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Atributos são informações que passamos para os elementos para que seu comportamento e
+                            funcionalidades sejam aplicados.</p>
+                        <p>Alguns elementos podem ter diversos atributos, que são capazes de mudar desde seu estilo
+                            (CSS) até suas informações e a própria existência do elemento.</p>
+                        <p>
+                            <span class="font-weight-bold">Exemplo:</span> <br>
+                            <code> &lt;input </code>
+                            <span class="atributo">placeholder=</span>
+                            <span class="valor-atributo">"Planning infinita"</span>
+                            <span class="atributo"> value=</span>
+                            <span class="valor-atributo">"Buzz Lightyear" </span>
+                            <code> &gt; </code>
+                        </p>
+                        <p>
+                            <code> &lt;div </code>
+                            <span class="atributo">class=</span>
+                            <span class="valor-atributo">"form-control"</span>
+                            <span class="atributo"> value=</span>
+                            <span class="valor-atributo">"Buzz Lightyear" </span>
+                            <code> &gt; </code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elementos de grid -->
+        <div class="section mt-2 bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            Conceitos de grid (Elementos inline e block)
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">O conceito de grid segue o exemplo de um grid de largada
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Muitas vezes isso não é explicado, mas os elementos HTML são dividos em duas classes: Os
+                            elementos <span class="font-weight-bold text-primary">INLINE</span> e os elementos <span
+                                class="font-weight-bold text-primary">BLOCK</span></p>
+                        <p>O conceito de grid exemplifica como os elementos se organizam no documento.</p>
+                        <p>Visualizando a imagem podemos ver como os elementos se organizam de forma semelhante a um
+                            grid de larga de uma corrida.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h4>Alinhamento dos elementos</h4>
+                        <p>Importante lembrar que os elementos do HTML naturalmente se alinham para o lado superior
+                            esquerdo da exibição, portanto
+                            lemos o código como se realmente fosse um texto.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Canto superior esquerdo é o norte dos elementos
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Inline vs Block</h4>
+                            <p class="text-justify"> Conforme vimos na parte de hierarquia do HTML, o elemento pode ter
+                                diversas relações (ter
+                                pais, irmãos etc) e sua classificação
+                                como inline ou como block, define como será seu comportamento padrão com seus
+                                familiares.
+                                Enquanto um elemento block ocupa
+                                todo o espaço do seu elemento pai, empurrando os irmãos para a linha abaixo, os
+                                elementos
+                                inline agrupam-se na mesma linha,
+                                formando um alinhamento para o canto superior esquerdo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <figure>
+                                <h5 class="text-primary">Elementos Inline <i class="fa fa-code"></i></h5>
+                                <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">Ocupam somente a largura necessária para
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <h1 class="text-info">
+                                Ocupam somente o espaço horizontal necessário, alinhando todos os elementos à esquerda.
+                            </h1>
+                            <button class="btn btn-primary btn-lg mt-5">
+                                <i class="fa fa-copy"></i> Documentação
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6 pt-4">
+                            <h1 class="text-info text-right">
+                                Ocupam todo espaço horizontal disponível pelo elemento pai, empurrando todos os
+                                elementos à direita.
+                            </h1>
+                            <button class="btn btn-primary btn-lg mt-5 pull-right">
+                                <i class="fa fa-copy"></i> Documentação
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <figure>
+                                <h5 class="text-primary">Elementos Block <i class="fa fa-code"></i></h5>
+                                <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">Ocupam somente a largura necessária para
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
