@@ -15,7 +15,7 @@
 <body>
     <div class="topbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top ">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" onClick=infinito()>
                 <img src="assets/img/logo-white.png" alt="Grupo Dimed">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -60,14 +60,14 @@
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-success">Bom exemplo <i class="fa fa-thumbs-up"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Estrutura simples e limpa</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-danger">Mau exemplo <i class="fa fa-thumbs-down"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Estrutura complexa e poluída</figcaption>
                         </figure>
                     </div>
@@ -92,14 +92,14 @@
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-success">Hierarquia Simples <i class="fa fa-thumbs-up"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Fácil leitura e manutenção</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-danger">Hierarquia Encadeada <i class="fa fa-thumbs-down"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Leitura difícil e codependência de código</figcaption>
                         </figure>
                     </div>
@@ -125,14 +125,14 @@
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-primary">Exemplo de tags <i class="fa fa-code"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption"></figcaption>
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <figure>
                             <h5 class="text-primary">Exemplo de elementos <i class="fa fa-code"></i></h5>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption"></figcaption>
                         </figure>
                     </div>
@@ -153,7 +153,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <figure>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Alteram características do elemento</figcaption>
                         </figure>
                     </div>
@@ -197,7 +197,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <figure>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">O conceito de grid segue o exemplo de um grid de largada
                             </figcaption>
                         </figure>
@@ -211,6 +211,9 @@
                             grid de larga de uma corrida.</p>
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="row mt-4">
                     <div class="col-md-6">
                         <h4>Alinhamento dos elementos</h4>
@@ -221,67 +224,104 @@
                     </div>
                     <div class="col-md-6">
                         <figure>
-                            <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
                             <figcaption class="figure-caption">Canto superior esquerdo é o norte dos elementos
                             </figcaption>
                         </figure>
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="row mt-4">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4>Inline vs Block</h4>
-                            <p class="text-justify"> Conforme vimos na parte de hierarquia do HTML, o elemento pode ter
-                                diversas relações (ter
-                                pais, irmãos etc) e sua classificação
-                                como inline ou como block, define como será seu comportamento padrão com seus
-                                familiares.
-                                Enquanto um elemento block ocupa
-                                todo o espaço do seu elemento pai, empurrando os irmãos para a linha abaixo, os
-                                elementos
-                                inline agrupam-se na mesma linha,
-                                formando um alinhamento para o canto superior esquerdo.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <figure>
-                                <h5 class="text-primary">Elementos Inline <i class="fa fa-code"></i></h5>
-                                <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
-                                <figcaption class="figure-caption">Ocupam somente a largura necessária para
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-md-6 pt-4">
-                            <h1 class="text-info">
-                                Ocupam somente o espaço horizontal necessário, alinhando todos os elementos à esquerda.
-                            </h1>
-                            <button class="btn btn-primary btn-lg mt-5">
-                                <i class="fa fa-copy"></i> Documentação
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-md-6 pt-4">
-                            <h1 class="text-info text-right">
-                                Ocupam todo espaço horizontal disponível pelo elemento pai, empurrando todos os
-                                elementos à direita.
-                            </h1>
-                            <button class="btn btn-primary btn-lg mt-5 pull-right">
-                                <i class="fa fa-copy"></i> Documentação
-                            </button>
-                        </div>
-                        <div class="col-md-6">
-                            <figure>
-                                <h5 class="text-primary">Elementos Block <i class="fa fa-code"></i></h5>
-                                <img src="http://via.placeholder.com/1920x1080" class="figure-img img-fluid rounded">
-                                <figcaption class="figure-caption">Ocupam somente a largura necessária para
-                                </figcaption>
-                            </figure>
-                        </div>
+                    <div class="col-md-12">
+                        <h4>Inline vs Block</h4>
+                        <p class="text-justify"> Conforme vimos na parte de hierarquia do HTML, o elemento pode ter
+                            diversas relações (ter
+                            pais, irmãos etc) e sua classificação
+                            como inline ou como block, define como será seu comportamento padrão com seus
+                            familiares.
+                            Enquanto um elemento block ocupa
+                            todo o espaço do seu elemento pai, empurrando os irmãos para a linha abaixo, os
+                            elementos
+                            inline agrupam-se na mesma linha,
+                            formando um alinhamento para o canto superior esquerdo.
+                        </p>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-primary">Elementos Inline <i class="fa fa-code"></i></h5>
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Ocupam somente a largura necessária para
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 pt-4">
+                        <h1 class="text-info">
+                            Ocupam somente o espaço horizontal necessário, alinhando todos os elementos à esquerda.
+                        </h1>
+                        <button class="btn btn-primary btn-lg mt-4">
+                            <i class="fa fa-copy"></i> Documentação
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6 pt-4">
+                        <h1 class="text-info text-right">
+                            Ocupam todo espaço horizontal disponível pelo elemento pai, empurrando todos os
+                            elementos à direita.
+                        </h1>
+                        <button class="btn btn-primary btn-lg mt-4 pull-right">
+                            <i class="fa fa-copy"></i> Documentação
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <h5 class="text-primary">Elementos Block <i class="fa fa-code"></i></h5>
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Ocupam toda largura disponível
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <figure>
+                            <h4 class="text-danger">A treta entre os elementos <i class="fa fa-code"></i></h3>
+                                <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">Pau que nasce torto nunca se endireita
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <h4 class="text-success">A solução para a treta <i class="fa fa-code"></i></h4>
+                            <img src="assets/img/mock.jpg" class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Dev que requebra quando mexe a cabeça
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h1 class="text-info text-right">A estrutura inline e block é definida de forma nativa pelo HTML5, porém veremos mais a
+                            frente como o CSS altera essa estrutura com algumas condições.
+                        </h1>
+                    </div>
+                </div>
+
+                <hr>
+
             </div>
         </div>
 
@@ -290,8 +330,16 @@
     </div>
     </div>
 
-
+    <div class="buzz" id="infinito">
+        <img src="assets/img/buzz.png">
+    </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+
+<script>
+    function infinito(){
+        document.getElementById("infinito").style.visibility = "visible";
+    }
+</script>

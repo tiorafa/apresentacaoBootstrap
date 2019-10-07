@@ -37,6 +37,15 @@ body, html{
     color: #FFAE00;
 }
 
+.buzz{
+    visibility: hidden;
+    position: fixed;
+    right: -100px;
+    z-index: 100;
+    bottom: -135px;
+    transform: rotate(-25deg);
+}
+
 
 
 
